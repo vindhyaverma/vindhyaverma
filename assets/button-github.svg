@@ -1,7 +1,23 @@
-<svg width="188" height="44" viewBox="0 0 188 44" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="GitHub vindhyaverma">
-  <rect x="1" y="1" width="186" height="42" rx="12" fill="#0B1220" stroke="#334155"/>
-  <rect x="1" y="1" width="186" height="42" rx="12" stroke="#38BDF8" stroke-opacity="0.7">
-    <animate attributeName="stroke-opacity" values="0.25;1;0.25" dur="2.4s" repeatCount="indefinite"/>
-  </rect>
-  <text x="94" y="28" text-anchor="middle" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="800">GitHub</text>
+<svg width="176" height="52" viewBox="0 0 176 52" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="GitHub vindhyaverma">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="176" y2="52">
+      <stop stop-color="#020617"/>
+      <stop offset="1" stop-color="#172033"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="-70" y1="0" x2="70" y2="0">
+      <stop stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-80 0;250 0;-80 0" dur="3.4s" repeatCount="indefinite"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-40%" width="140%" height="180%">
+      <feDropShadow dx="0" dy="0" stdDeviation="4" flood-color="#38BDF8" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+  <rect x="2" y="2" width="172" height="48" rx="16" fill="url(#g)" stroke="#38BDF8" stroke-opacity="0.72" filter="url(#glow)"/>
+  <rect x="2" y="2" width="172" height="48" rx="16" fill="url(#shine)" opacity="0.28"/>
+  <circle cx="31" cy="26" r="14" fill="#FFFFFF" fill-opacity="0.08" stroke="#94A3B8"/>
+  <path d="M31 15.8C25.3 15.8 20.7 20.4 20.7 26.1C20.7 30.6 23.6 34.5 27.7 35.8C28.2 35.9 28.4 35.6 28.4 35.3V33.5C25.5 34.1 24.9 32.3 24.9 32.3C24.5 31.1 23.8 30.8 23.8 30.8C22.8 30.1 23.9 30.1 23.9 30.1C25 30.2 25.6 31.3 25.6 31.3C26.6 33 28.2 32.5 28.5 32.3C28.6 31.6 28.9 31.1 29.2 30.8C26.9 30.6 24.5 29.7 24.5 25.8C24.5 24.7 24.9 23.8 25.6 23C25.5 22.7 25.1 21.7 25.7 20.3C25.7 20.3 26.6 20 28.5 21.4C29.3 21.2 30.2 21.1 31 21.1C31.8 21.1 32.7 21.2 33.5 21.4C35.4 20 36.3 20.3 36.3 20.3C36.9 21.7 36.5 22.7 36.4 23C37.1 23.8 37.5 24.7 37.5 25.8C37.5 29.7 35.1 30.6 32.8 30.8C33.2 31.1 33.5 31.8 33.5 32.8V35.3C33.5 35.6 33.7 35.9 34.2 35.8C38.4 34.5 41.3 30.6 41.3 26.1C41.3 20.4 36.7 15.8 31 15.8Z" fill="#F8FAFC"/>
+  <text x="92" y="24" text-anchor="middle" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="900">GitHub</text>
+  <text x="92" y="39" text-anchor="middle" fill="#BAE6FD" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700">vindhyaverma</text>
 </svg>

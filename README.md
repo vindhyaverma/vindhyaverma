@@ -2,10 +2,10 @@
 
 <img src="./assets/profile-banner.svg" alt="Animated profile banner for Vindhya Verma" width="100%" />
 
-<a href="https://github.com/vindhyaverma"><img src="./assets/button-github.svg" alt="GitHub: vindhyaverma" height="44" /></a>
-<a href="https://www.linkedin.com/in/vindhyaverma"><img src="./assets/button-linkedin.svg" alt="LinkedIn: vindhyaverma" height="44" /></a>
-<a href="https://vindhya.link"><img src="./assets/button-website.svg" alt="Website: vindhya.link" height="44" /></a>
-<a href="mailto:professional.vindhya@gmail.com"><img src="./assets/button-email.svg" alt="Email: professional.vindhya@gmail.com" height="44" /></a>
+<a href="https://github.com/vindhyaverma"><img src="./assets/button-github.svg" alt="GitHub profile: vindhyaverma" height="52" /></a>
+<a href="https://www.linkedin.com/in/vindhyaverma"><img src="./assets/button-linkedin.svg" alt="LinkedIn profile: vindhyaverma" height="52" /></a>
+<a href="https://vindhya.link"><img src="./assets/button-website.svg" alt="Portfolio website: vindhya.link" height="52" /></a>
+<a href="mailto:professional.vindhya@gmail.com"><img src="./assets/button-email.svg" alt="Email: professional.vindhya@gmail.com" height="52" /></a>
 
 <img src="./assets/animated-divider.svg" alt="" width="100%" />
 

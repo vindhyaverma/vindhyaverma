@@ -1,7 +1,21 @@
-<svg width="244" height="44" viewBox="0 0 244 44" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Email professional.vindhya@gmail.com">
-  <rect x="1" y="1" width="242" height="42" rx="12" fill="#7F1D1D" stroke="#FCA5A5"/>
-  <rect x="1" y="1" width="242" height="42" rx="12" stroke="#FFFFFF" stroke-opacity="0.45">
-    <animate attributeName="stroke-opacity" values="0.2;0.9;0.2" dur="2.9s" repeatCount="indefinite"/>
-  </rect>
-  <text x="122" y="28" text-anchor="middle" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="800">professional.vindhya@gmail.com</text>
+<svg width="176" height="52" viewBox="0 0 176 52" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Email professional.vindhya@gmail.com">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="176" y2="52">
+      <stop stop-color="#7F1D1D"/>
+      <stop offset="0.52" stop-color="#B91C1C"/>
+      <stop offset="1" stop-color="#F43F5E"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="-70" y1="0" x2="70" y2="0">
+      <stop stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-80 0;250 0;-80 0" dur="3.25s" repeatCount="indefinite"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="172" height="48" rx="16" fill="url(#g)" stroke="#FCA5A5"/>
+  <rect x="2" y="2" width="172" height="48" rx="16" fill="url(#shine)" opacity="0.26"/>
+  <rect x="18" y="16" width="27" height="20" rx="6" fill="#FFFFFF" fill-opacity="0.14" stroke="#FECACA"/>
+  <path d="M21 20L31.5 28L42 20" stroke="#FEE2E2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="99" y="24" text-anchor="middle" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="900">Email Me</text>
+  <text x="99" y="39" text-anchor="middle" fill="#FEE2E2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="800">professional.vindhya</text>
 </svg>

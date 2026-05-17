@@ -1,16 +1,30 @@
-<svg width="1200" height="150" viewBox="0 0 1200 150" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Animated connect strip">
+<svg width="1200" height="180" viewBox="0 0 1200 180" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Animated connect strip">
   <defs>
-    <linearGradient id="grad" x1="0" y1="0" x2="1200" y2="150">
+    <linearGradient id="grad" x1="0" y1="0" x2="1200" y2="180">
       <stop stop-color="#4ADE80"/>
       <stop offset="0.35" stop-color="#38BDF8"/>
       <stop offset="0.7" stop-color="#A78BFA"/>
       <stop offset="1" stop-color="#FB7185"/>
     </linearGradient>
+    <filter id="glow" x="-20%" y="-40%" width="140%" height="180%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
   </defs>
-  <rect width="1200" height="150" rx="22" fill="#050B16"/>
-  <rect x="22" y="22" width="1156" height="106" rx="20" fill="url(#grad)" opacity="0.18">
-    <animate attributeName="opacity" values="0.12;0.35;0.12" dur="3s" repeatCount="indefinite"/>
+  <rect width="1200" height="180" rx="24" fill="#050B16"/>
+  <rect x="22" y="22" width="1156" height="136" rx="22" fill="url(#grad)" opacity="0.16">
+    <animate attributeName="opacity" values="0.12;0.34;0.12" dur="3s" repeatCount="indefinite"/>
   </rect>
-  <text x="600" y="64" text-anchor="middle" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="28" font-weight="900">LET'S BUILD SOMETHING SHARP</text>
-  <text x="600" y="101" text-anchor="middle" fill="#D1D5DB" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">GitHub: vindhyaverma | LinkedIn: /in/vindhyaverma | Website: vindhya.link</text>
+  <text x="600" y="58" text-anchor="middle" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="30" font-weight="900">LET'S BUILD SOMETHING SHARP</text>
+  <text x="600" y="91" text-anchor="middle" fill="#D1D5DB" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="700">Open-source, AI/data, finance-tech, Web3, and community collaborations.</text>
+  <g font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="900" filter="url(#glow)">
+    <rect x="190" y="116" width="170" height="34" rx="17" fill="#020617" stroke="#38BDF8"/>
+    <text x="275" y="139" text-anchor="middle" fill="#E0F2FE">github.com/vindhyaverma</text>
+    <rect x="380" y="116" width="180" height="34" rx="17" fill="#0A66C2" stroke="#BFDBFE"/>
+    <text x="470" y="139" text-anchor="middle" fill="#FFFFFF">linkedin.com/in/vindhyaverma</text>
+    <rect x="580" y="116" width="150" height="34" rx="17" fill="#7C2D12" stroke="#FDBA74"/>
+    <text x="655" y="139" text-anchor="middle" fill="#FFEDD5">vindhya.link</text>
+    <rect x="750" y="116" width="260" height="34" rx="17" fill="#991B1B" stroke="#FCA5A5"/>
+    <text x="880" y="139" text-anchor="middle" fill="#FEE2E2">professional.vindhya@gmail.com</text>
+  </g>
 </svg>
