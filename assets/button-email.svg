@@ -1,0 +1,7 @@
+<svg width="244" height="44" viewBox="0 0 244 44" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Email professional.vindhya@gmail.com">
+  <rect x="1" y="1" width="242" height="42" rx="12" fill="#7F1D1D" stroke="#FCA5A5"/>
+  <rect x="1" y="1" width="242" height="42" rx="12" stroke="#FFFFFF" stroke-opacity="0.45">
+    <animate attributeName="stroke-opacity" values="0.2;0.9;0.2" dur="2.9s" repeatCount="indefinite"/>
+  </rect>
+  <text x="122" y="28" text-anchor="middle" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="800">professional.vindhya@gmail.com</text>
+</svg>

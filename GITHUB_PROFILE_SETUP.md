@@ -14,12 +14,11 @@ Use this folder as your special GitHub profile repository.
 
    ```txt
    README.md
-   assets/profile-banner.svg
+   assets/
    ```
 
 3. Open `README.md` and replace only the items that still need real project details:
 
-   - Featured project links
    - Any technologies that do not match your current skills
 
 4. Pin your best repositories on GitHub:
@@ -37,6 +36,7 @@ Use this folder as your special GitHub profile repository.
 - Add screenshots or demo GIFs to top projects.
 - Use clear repository names.
 - Keep committing consistently.
+- Keep every visual asset inside the `assets/` folder so the README stays portable.
 
 ## Strong Bio Ideas
 

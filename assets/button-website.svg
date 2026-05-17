@@ -1,0 +1,7 @@
+<svg width="188" height="44" viewBox="0 0 188 44" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Website vindhya.link">
+  <rect x="1" y="1" width="186" height="42" rx="12" fill="#431407" stroke="#FDBA74"/>
+  <rect x="1" y="1" width="186" height="42" rx="12" stroke="#FDE047" stroke-opacity="0.65">
+    <animate attributeName="stroke-opacity" values="0.25;1;0.25" dur="2.2s" repeatCount="indefinite"/>
+  </rect>
+  <text x="94" y="28" text-anchor="middle" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="800">vindhya.link</text>
+</svg>

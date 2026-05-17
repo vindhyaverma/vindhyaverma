@@ -1,0 +1,15 @@
+<svg width="1200" height="250" viewBox="0 0 1200 250" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Animated impact panel">
+  <rect width="1200" height="250" rx="22" fill="#050B16"/>
+  <path d="M0 188C152 112 304 114 454 166C608 220 744 222 888 143C1004 79 1100 75 1200 101V250H0V188Z" fill="#0F172A"/>
+  <path d="M70 170L180 126L292 142L402 78L514 116L626 88L738 132L850 72L962 104L1090 50" stroke="#4ADE80" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <animate attributeName="stroke-dasharray" values="30 900;260 600;30 900" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-dashoffset" values="0;-420;-840" dur="7s" repeatCount="indefinite"/>
+  </path>
+  <g font-family="Inter, Segoe UI, Arial, sans-serif">
+    <text x="80" y="64" fill="#FFFFFF" font-size="27" font-weight="900">BUILDER SIGNAL</text>
+    <text x="80" y="101" fill="#CBD5E1" font-size="18" font-weight="600">AI thinking. Market curiosity. Product taste. Community energy.</text>
+    <text x="782" y="183" fill="#FDE047" font-size="24" font-weight="900">ANALYZE</text>
+    <text x="914" y="183" fill="#38BDF8" font-size="24" font-weight="900">BUILD</text>
+    <text x="1024" y="183" fill="#4ADE80" font-size="24" font-weight="900">SCALE</text>
+  </g>
+</svg>

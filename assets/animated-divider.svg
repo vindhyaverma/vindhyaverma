@@ -1,0 +1,17 @@
+<svg width="1200" height="44" viewBox="0 0 1200 44" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Animated divider">
+  <defs>
+    <linearGradient id="line" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4ADE80"/>
+      <stop offset="0.33" stop-color="#38BDF8"/>
+      <stop offset="0.66" stop-color="#A78BFA"/>
+      <stop offset="1" stop-color="#FDE047"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-1200 0;0 0;1200 0" dur="5s" repeatCount="indefinite"/>
+    </linearGradient>
+  </defs>
+  <rect x="70" y="19" width="1060" height="6" rx="3" fill="#111827"/>
+  <rect x="70" y="19" width="1060" height="6" rx="3" fill="url(#line)"/>
+  <circle cx="600" cy="22" r="12" fill="#38BDF8">
+    <animate attributeName="cx" values="90;1110;90" dur="7s" repeatCount="indefinite"/>
+    <animate attributeName="fill" values="#38BDF8;#4ADE80;#FDE047;#38BDF8" dur="7s" repeatCount="indefinite"/>
+  </circle>
+</svg>

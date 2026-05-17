@@ -1,0 +1,34 @@
+<svg width="1200" height="260" viewBox="0 0 1200 260" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Animated technology orbit">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="260">
+      <stop stop-color="#07111F"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-50%" width="160%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="260" rx="22" fill="url(#bg)"/>
+  <text x="600" y="48" text-anchor="middle" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="28" font-weight="900">AI x DATA x FINANCE x WEB3</text>
+  <ellipse cx="600" cy="146" rx="390" ry="72" stroke="#334155" stroke-width="2"/>
+  <ellipse cx="600" cy="146" rx="268" ry="46" stroke="#334155" stroke-width="2"/>
+  <g filter="url(#glow)">
+    <circle r="10" fill="#4ADE80">
+      <animateMotion dur="6s" repeatCount="indefinite" path="M210 146C210 106 385 74 600 74C815 74 990 106 990 146C990 186 815 218 600 218C385 218 210 186 210 146Z"/>
+    </circle>
+    <circle r="8" fill="#38BDF8">
+      <animateMotion dur="7s" repeatCount="indefinite" path="M332 146C332 121 452 100 600 100C748 100 868 121 868 146C868 171 748 192 600 192C452 192 332 171 332 146Z"/>
+    </circle>
+    <circle r="7" fill="#FDE047">
+      <animateMotion dur="5s" repeatCount="indefinite" path="M990 146C990 186 815 218 600 218C385 218 210 186 210 146C210 106 385 74 600 74C815 74 990 106 990 146Z"/>
+    </circle>
+  </g>
+  <g font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800">
+    <text x="196" y="154" fill="#BBF7D0">Machine Learning</text>
+    <text x="394" y="111" fill="#BAE6FD">Data Science</text>
+    <text x="557" y="170" fill="#FFFFFF">IIT Jodhpur</text>
+    <text x="732" y="111" fill="#FDE68A">Markets</text>
+    <text x="860" y="154" fill="#DDD6FE">Web3</text>
+  </g>
+</svg>
