@@ -2,8 +2,6 @@
 
 <!-- Animated GitHub profile README for vindhyaverma -->
 
-# VINDHYA VERMA
-
 <img src="./assets/profile-banner.svg" alt="Animated profile banner for Vindhya Verma" width="100%" />
 
 <a href="https://github.com/vindhyaverma"><img src="./assets/button-github.svg" alt="GitHub profile: vindhyaverma" height="52" /></a>
@@ -69,15 +67,15 @@ Signal      : Build intelligent things. Present them beautifully. Keep improving
 
 ## Let's Connect
 
-I am open to **open-source collaboration**, **AI/data projects**, **finance-tech ideas**, **community opportunities**, and conversations with people who want to build things that look good, work hard, and matter.
+I am open to **open-source collaboration**, **AI/data projects**, **finance-tech ideas**, **community opportunities**, and conversations with people building at the edge of intelligence, markets, and product.
 
 <div align="center">
 
 <img src="./assets/connect-strip.svg" alt="Animated connect strip" width="100%" />
 
-<a href="https://github.com/vindhyaverma">GitHub</a> |
-<a href="https://www.linkedin.com/in/vindhyaverma">LinkedIn</a> |
-<a href="https://vindhya.link">Website</a> |
-<a href="mailto:professional.vindhya@gmail.com">Email</a>
+<a href="https://github.com/vindhyaverma"><img src="./assets/button-github.svg" alt="GitHub profile: vindhyaverma" height="52" /></a>
+<a href="https://www.linkedin.com/in/vindhyaverma"><img src="./assets/button-linkedin.svg" alt="LinkedIn profile: vindhyaverma" height="52" /></a>
+<a href="https://vindhya.link"><img src="./assets/button-website.svg" alt="Portfolio website: vindhya.link" height="52" /></a>
+<a href="mailto:professional.vindhya@gmail.com"><img src="./assets/button-email.svg" alt="Email: professional.vindhya@gmail.com" height="52" /></a>
 
 </div>

@@ -1,30 +1,41 @@
-<svg width="1200" height="180" viewBox="0 0 1200 180" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Animated connect strip">
+<svg width="1200" height="220" viewBox="0 0 1200 220" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Animated connect strip">
   <defs>
-    <linearGradient id="grad" x1="0" y1="0" x2="1200" y2="180">
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="220">
+      <stop stop-color="#050B16"/>
+      <stop offset="0.48" stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#1E1B4B"/>
+    </linearGradient>
+    <linearGradient id="line" x1="120" y1="0" x2="1080" y2="0" gradientUnits="userSpaceOnUse">
       <stop stop-color="#4ADE80"/>
-      <stop offset="0.35" stop-color="#38BDF8"/>
-      <stop offset="0.7" stop-color="#A78BFA"/>
-      <stop offset="1" stop-color="#FB7185"/>
+      <stop offset="0.32" stop-color="#38BDF8"/>
+      <stop offset="0.68" stop-color="#A78BFA"/>
+      <stop offset="1" stop-color="#FDE047"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-220 0;220 0;-220 0" dur="5s" repeatCount="indefinite"/>
     </linearGradient>
     <filter id="glow" x="-20%" y="-40%" width="140%" height="180%">
-      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feGaussianBlur stdDeviation="7" result="blur"/>
       <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
   </defs>
-  <rect width="1200" height="180" rx="24" fill="#050B16"/>
-  <rect x="22" y="22" width="1156" height="136" rx="22" fill="url(#grad)" opacity="0.16">
-    <animate attributeName="opacity" values="0.12;0.34;0.12" dur="3s" repeatCount="indefinite"/>
-  </rect>
-  <text x="600" y="58" text-anchor="middle" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="30" font-weight="900">LET'S BUILD SOMETHING SHARP</text>
-  <text x="600" y="91" text-anchor="middle" fill="#D1D5DB" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="700">Open-source, AI/data, finance-tech, Web3, and community collaborations.</text>
-  <g font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="900" filter="url(#glow)">
-    <rect x="190" y="116" width="170" height="34" rx="17" fill="#020617" stroke="#38BDF8"/>
-    <text x="275" y="139" text-anchor="middle" fill="#E0F2FE">github.com/vindhyaverma</text>
-    <rect x="380" y="116" width="180" height="34" rx="17" fill="#0A66C2" stroke="#BFDBFE"/>
-    <text x="470" y="139" text-anchor="middle" fill="#FFFFFF">linkedin.com/in/vindhyaverma</text>
-    <rect x="580" y="116" width="150" height="34" rx="17" fill="#7C2D12" stroke="#FDBA74"/>
-    <text x="655" y="139" text-anchor="middle" fill="#FFEDD5">vindhya.link</text>
-    <rect x="750" y="116" width="260" height="34" rx="17" fill="#991B1B" stroke="#FCA5A5"/>
-    <text x="880" y="139" text-anchor="middle" fill="#FEE2E2">professional.vindhya@gmail.com</text>
+
+  <rect width="1200" height="220" rx="26" fill="url(#bg)"/>
+  <rect x="28" y="28" width="1144" height="164" rx="24" fill="#FFFFFF" fill-opacity="0.045" stroke="#FFFFFF" stroke-opacity="0.1"/>
+
+  <path d="M120 50H1080" stroke="url(#line)" stroke-width="5" stroke-linecap="round" filter="url(#glow)">
+    <animate attributeName="stroke-dasharray" values="80 900;360 620;80 900" dur="4.5s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-dashoffset" values="0;-480;-960" dur="8s" repeatCount="indefinite"/>
+  </path>
+
+  <text x="600" y="92" text-anchor="middle" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="34" font-weight="900" letter-spacing="0">LET'S BUILD WHAT THE FUTURE USES</text>
+  <text x="600" y="126" text-anchor="middle" fill="#CFFAFE" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" letter-spacing="0">AI systems. Data products. Market intelligence. Web3 ideas. Open-source momentum.</text>
+  <text x="600" y="158" text-anchor="middle" fill="#FDE68A" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="800" letter-spacing="0">Slogan: Turning intelligence into impact, and market signals into strategy.</text>
+
+  <g opacity="0.9" filter="url(#glow)">
+    <circle cx="146" cy="50" r="7" fill="#4ADE80">
+      <animate attributeName="cx" values="146;1054;146" dur="7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1054" cy="50" r="6" fill="#FDE047">
+      <animate attributeName="cx" values="1054;146;1054" dur="8.5s" repeatCount="indefinite"/>
+    </circle>
   </g>
 </svg>
