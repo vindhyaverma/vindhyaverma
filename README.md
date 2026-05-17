@@ -1,5 +1,7 @@
 <div align="center">
 
+<!-- Animated GitHub profile README for vindhyaverma -->
+
 <img src="./assets/profile-banner.svg" alt="Animated profile banner for Vindhya Verma" width="100%" />
 
 <a href="https://github.com/vindhyaverma"><img src="./assets/button-github.svg" alt="GitHub profile: vindhyaverma" height="52" /></a>
